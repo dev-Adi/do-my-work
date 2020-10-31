@@ -72,7 +72,6 @@ if __name__ == "__main__":
             speak(results)
 
         elif 'open youtube' in query:
-            #c = webbrowser.get('chrome')
             webbrowser.open("youtube.com")
 
         elif 'play music' in query:
